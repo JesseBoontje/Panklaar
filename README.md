@@ -1,5 +1,7 @@
 # Panklaar 🍳
 
+> **Dit is de oude Panklaar (v42).** Hij blijft draaien op `panklaar.zsj4j2s4df.workers.dev`, maar wordt niet verder gebouwd. De nieuwe Panklaar, met een eigen server en een koppeling met Frits, staat in [`JesseBoontje/Panklaar-nieuw-`](https://github.com/JesseBoontje/Panklaar-nieuw-).
+
 Een hand-getekende kookapp (pen-op-papier stijl) voor privégebruik. Vanilla JS, geen framework en geen account. Data blijft lokaal en versleuteld op
 het apparaat (IndexedDB). Zie onderaan voor de beveiligde versie en het bouwen.
 
@@ -209,7 +211,7 @@ koppeling miste deze rechten bij de eerdere Kasboek-publicatie. Met een geschikt
 beheerkoppeling kan de klaargezette configuratie worden toegepast:
 
 ```sh
-gh api --method PUT repos/zsj4j2s4df-pixel/Panklaar/branches/main/protection \
+gh api --method PUT repos/JesseBoontje/Panklaar/branches/main/protection \
   --input scripts/branch-protection.json
 ```
 
