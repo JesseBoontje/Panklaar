@@ -127,7 +127,7 @@ pannetje is het logo.
 
 ## Beveiligde versie en Safari-herstel v40
 
-Online: **https://panklaar.zsj4j2s4df.workers.dev/**.
+Online: **https://panklaar.djez.app/**.
 
 Recepten, foto's en gezins-/allergiegegevens worden lokaal versleuteld in
 IndexedDB opgeslagen met AES-256-GCM. Het wachtwoord wordt via PBKDF2-SHA256
