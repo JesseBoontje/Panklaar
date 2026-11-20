@@ -1100,7 +1100,7 @@ function viewProfile(){
       <label class="security-setting"><input id="remember-device" type="checkbox" ${PanklaarSecurity.isRemembered()?'checked':''}>Op dit apparaat ontgrendeld blijven (30 dagen)</label>
       <p class="muted" style="font-size:14px;margin-top:8px">Gebruik dit alleen op je eigen apparaat. Andere gebruikers van deze browser kunnen dan ook je recepten en gezinsgegevens bekijken. Vergrendelen zet deze optie uit. Je AI-sleutel blijft alleen in deze sessie.</p>
     </div>
-    ${location.hostname.endsWith('github.io')?'<p class="muted" style="margin-bottom:14px">Maak hier een back-up en zet die terug op <a href="https://panklaar.zsj4j2s4df.workers.dev/" rel="noopener noreferrer">het nieuwe Panklaar-adres</a>.</p>':''}
+    ${/(github\.io|workers\.dev)$/.test(location.hostname)?'<p class="muted" style="margin-bottom:14px">Maak hier een back-up en zet die terug op <a href="https://panklaar.djez.app/" rel="noopener noreferrer">het nieuwe Panklaar-adres</a>.</p>':''}
     <button type="button" class="sketch card menu-card" data-help="1" style="cursor:pointer;margin-bottom:14px">
       <div class="row">
         <div class="grow"><div class="name hand">Uitleg</div><div class="meta">Hoe werkt Panklaar &amp; de AI-sleutel</div></div>
